@@ -3,6 +3,8 @@
 
 Lane detection is a critical component of self-driving cars and autonomous vehicles. It is one of the most important research topics for understanding driving scene. Lanes are identified using Computer Vision technique OpenCV, OpenCV-Python is a library of Python bindings designed to solve computer vision problems and Hough Line transformation. The project has two major sections, the first section is to develop an algorithm that will process each image and mark the lane lines on the road. The second section is to apply algorithm to a set of videos. 
 
+![LD](https://user-images.githubusercontent.com/36964984/122653519-1d3c3180-d113-11eb-93df-ffe1ea5823a6.gif)
+
 #### STEP1 - Capturing and decoding Video file/Image: 
 We will capture the video using VideoCapture object and after the capturing has been initialized every video frame is decoded (i.e. converting into a sequence of images).
 #### STEP2 - Grayscale conversion of image: 
